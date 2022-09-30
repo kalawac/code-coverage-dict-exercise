@@ -1,6 +1,6 @@
 def create_student(name, level, courses):
     if not courses:
-        corses = []
+        courses = []
 
     return {
         "name": name,
