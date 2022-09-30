@@ -44,6 +44,12 @@ def test_get_student_with_more_classes():
         ["mathematics", "foundations of computing"]
     )
 
+    most_classes_b = get_student_with_more_classes(charles, ada)
+    most_classes_a = get_student_with_more_classes(ada, charles)
+
+    assert most_classes_a == ada 
+    assert most_classes_b == ada
+
     # TODO: write assertions
 
 
